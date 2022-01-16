@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Covid Clarity</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+    <div id="Instructions">Select all of the places you have gone to over the past week.</div>
+    <!--
+      Possible places:
+      Store
+      Shopping center
+      Movie theater
+      Residence besides your own
+      School
+      Office
+      Restaurant
+      Public transport
+      Large gathering
+
+    -->
+    
+    <!--<div class="selectionNames">Store<br>Shopping center<br>Movie theater<br>Other's residence<br>School<br>Office<br>Restaurant<br>Public transport<br>Large gathering</div>-->
+
+    <div class="selectionName" id="selectionName1">Store</div>
+    <div class="selectionName" id="selectionName2">Shopping Center</div>
+    <div class="selectionName" id="selectionName3">Movie Theater</div>
+    <div class="selectionName" id="selectionName4">Other's Residence</div>
+    <div class="selectionName" id="selectionName5">School</div>
+    <div class="selectionName" id="selectionName6">Office</div>
+    <div class="selectionName" id="selectionName7">Restaurant</div>
+    <div class="selectionName" id="selectionName8">Public Transport</div>
+    <div class="selectionName" id="selectionName9">Large Gathering</div>
+    
+
+    <button onclick="select(1)" class="selectionBox" id="selectionBox1"></button>
+    <button onclick="select(2)" class="selectionBox" id="selectionBox2"></button>
+    <button onclick="select(3)" class="selectionBox" id="selectionBox3"></button>
+    <button onclick="select(4)" class="selectionBox" id="selectionBox4"></button>
+    <button onclick="select(5)" class="selectionBox" id="selectionBox5"></button>
+    <button onclick="select(6)" class="selectionBox" id="selectionBox6"></button>
+    <button onclick="select(7)" class="selectionBox" id="selectionBox7"></button>
+    <button onclick="select(8)" class="selectionBox" id="selectionBox8"></button>
+    <button onclick="select(9)" class="selectionBox" id="selectionBox9"></button>
+    
+    <input type="text" class="boxInput invis" id="boxInput1"></input>
+    <input type="text" class="boxInput invis" id="boxInput2"></input>
+    <input type="text" class="boxInput invis" id="boxInput3"></input>
+    <input type="text" class="boxInput invis" id="boxInput4"></input>
+    <input type="text" class="boxInput invis" id="boxInput5"></input>
+    <input type="text" class="boxInput invis" id="boxInput6"></input>
+    <input type="text" class="boxInput invis" id="boxInput7"></input>
+    <input type="text" class="boxInput invis" id="boxInput8"></input>
+    <input type="text" class="boxInput invis" id="boxInput9"></input>
+    
+    <button onclick="submit()" id="Submit">Submit</button>
+    <script src="script.js"></script>
+  </body>
+</html>
